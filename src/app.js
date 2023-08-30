@@ -7,7 +7,7 @@ import products from "./routes/products.js";
 import { ProductManager } from "./ProductManager.js";
 
 const app = express();
-const httpServer = app.listen(8080, () => {
+const httpServer = app.listen(4000, () => {
   console.log("Listening on Port 8080");
 });
 
